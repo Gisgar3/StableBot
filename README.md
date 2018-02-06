@@ -8,4 +8,7 @@ StableBot is a Discord bot developed by Gavin Isgar for use in helping manage a 
 StableBot is still a Work-In-Progress bot; any suggestions/issues can be posted in the 'Issues' section of the repository!  
 
 # Useful Links
-<a href="https://github.com/Gisgar3/StableBot/wiki/Documentation">Bot Documentation</a>
+<a href="https://github.com/Gisgar3/StableBot/wiki/Documentation">Bot Documentation</a>  
+
+# NOTICE  
+<b>StableBot does NOT retrieve personal information about servers, users, nor messages! You are secure!</b>
