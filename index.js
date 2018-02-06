@@ -1,4 +1,4 @@
-
+﻿
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const msg = new Discord.Message();
@@ -52,11 +52,19 @@ bot.on('message', (message) => {
         }
 
         if(message.content == "!stable commands") {
-            message.channel.send("!stable hello ~ Say hello to StableBot!\n!stable goodnight ~ Say goodnight to StableBot!\n!stable what can you do ~ Displays information about StableBot's abilities.\n!stable upcomingfeatures ~ Displays upcoming features planned to be released for StableBot.\n!stable serverinfo ~ Displays information about StableBot's TCP connections.\n!stable origin ~ Learn about StableBot's history!\n!stable delete100 ~ Delete the last 100 messages in a channel.\n!stable lastban ~ Displays last user banned from the server.\n!stable ban ~ Ban user mentioned in command from server.\n!stable status ~ Receive status of bot.\n!stable kick ~ Kick user mentioned in command from server.\n!stable version ~ Retrieve current version of StableBot.");
+            message.channel.send("!stable hello ~ Say hello to StableBot!\n!stable goodnight ~ Say goodnight to StableBot!\n!stable what can you do ~ Displays information about StableBot's abilities.\n!stable upcomingfeatures ~ Displays upcoming features planned to be released for StableBot.\n!stable serverinfo ~ Displays information about StableBot's TCP connections.\n!stable origin ~ Learn about StableBot's history!\n!stable delete100 ~ Delete the last 100 messages in a channel.\n!stable lastban ~ Displays last user banned from the server.\n!stable ban ~ Ban user mentioned in command from server.\n!stable status ~ Receive status of bot.\n!stable kick ~ Kick user mentioned in command from server.\n!stable version ~ Retrieve current version of StableBot.\n!stable repo ~ Retrieve repository link for StableBot.\n!stable docs ~ Retrieve documentation link for StableBot.");
         }
 
         if(message.content == "!stable version") {
             message.channel.send("STABLEBOT VERSION: " + packageinfo.version);
+        }
+
+        if(message.content == "!stable repo") {
+            message.channel.send("https://github.com/Gisgar3/StableBot");
+        }
+
+        if(message.content == "!stable docs") {
+            message.channel.send("https://github.com/Gisgar3/StableBot/wiki/Documentation");
         }
         
 
