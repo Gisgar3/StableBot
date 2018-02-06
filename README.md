@@ -1,2 +1,2 @@
 # StableBot
-A bot for Discord; developed JavaScript (Node.JS), using Discord.JS
+A bot for Discord; developed with JavaScript (Node.JS), using Discord.JS
