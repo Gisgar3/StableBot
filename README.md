@@ -11,4 +11,5 @@ StableBot is still a Work-In-Progress bot; any suggestions/issues can be posted 
 <a href="https://github.com/Gisgar3/StableBot/wiki/Documentation">Bot Documentation</a>  
 
 # NOTICE  
-<b>StableBot does NOT retrieve personal information about servers, users, nor messages! You are secure!</b>
+<b>StableBot does NOT retrieve personal information about servers, users, nor messages! You are secure!</b>  
+<b>Also, all Node-Modules used in this bot are owned by their respective-owners!</b>
