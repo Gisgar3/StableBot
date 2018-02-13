@@ -1,6 +1,7 @@
 # StableBot
 A bot for Discord; developed with JavaScript (Node.JS), using Discord.JS  
-<b><a href="https://discordapp.com/oauth2/authorize?client_id=407665892697047071&scope=bot&permissions=2146958591">Add StableBot to your server</a></b>
+<a href="https://discordapp.com/oauth2/authorize?client_id=407665892697047071&scope=bot&permissions=2146958591"><img src="https://raw.githubusercontent.com/Gisgar3/StableBot/master/assets/StableBotAdvert1.png"></img></a>
+
 
 # Usage  
 StableBot is a Discord bot developed by Gavin Isgar for use in helping manage a server. StableBot comes developed with many commands that can be deemed useful for server administration.  
