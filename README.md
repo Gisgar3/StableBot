@@ -1,7 +1,7 @@
 # StableBot
 A bot for Discord; developed with JavaScript (Node.JS), using Discord.JS  
 ----
-<a href="https://discordapp.com/oauth2/authorize?client_id=407665892697047071&scope=bot&permissions=2146958591"><img src="https://raw.githubusercontent.com/Gisgar3/StableBot/master/assets/StableBotAdvert1.png"></img></a>
+<a href="https://discordapp.com/oauth2/authorize?client_id=407665892697047071&scope=bot&permissions=2146958591"><img src="https://raw.githubusercontent.com/Gisgar3/StableBot/master/assets/StableBotAdvert2.png"></img></a>
 
 
 # Usage  
