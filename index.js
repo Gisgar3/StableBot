@@ -1,11 +1,11 @@
-﻿
+
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const msg = new Discord.Message();
 var nodemailer = require('nodemailer');
 var net = require('net');
 const say = require('say')
-
+const logintokens = require("./exclude/tokens.json");
 const readline = require('readline');
 const packageinfo = require('./package.json');
 
@@ -77,6 +77,7 @@ bot.on('message', (message) => {
             else {
                 message.channel.send(message.author + ", you don't have permission to access that command!");
             }
+        }
 
 //------------Bans/Kicks------------
 
@@ -139,7 +140,8 @@ bot.on('message', (message) => {
         }
     
     
-    }
+
+
     
 
 
@@ -151,6 +153,9 @@ bot.on('message', (message) => {
     
 // });
 
+
+
+// Command-Line Inputs; Has no correlation with the server input/output seen by users
 
 rl.on('line', (input) => {
     if(input.toString().includes("!stablestatus")) { 
@@ -193,4 +198,4 @@ bot.on('ready', (ready) => {
     console.log("StableBot is online.");
 });
 
-bot.login('BOT_TOKEN');
+bot.login(logintokens.login.botlogin);
